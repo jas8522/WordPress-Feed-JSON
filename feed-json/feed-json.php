@@ -99,6 +99,7 @@ class feed_json {
 		}
 
 		$template_file = ($template_file !== false ? $template_file : $template);
+		//return apply_filters( 'feed-json-template-file', $template_file );
 		return apply_filters( 'feed-json-template-file', $template_file );
 	}
 }
