@@ -79,6 +79,6 @@ if ( have_posts() ) {
 	}
 
 } else {
-	status_header('404');
+	http_response_code(404);
 	wp_die("404 Not Found");
 }

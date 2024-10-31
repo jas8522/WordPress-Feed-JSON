@@ -3,8 +3,8 @@
 Plugin Name: Feed JSON
 Plugin URI: http://wordpress.org/extend/plugins/feed-json/
 Description: Adds a new type of feed you can subscribe to. http://example.com/feed/json or http://example.com/?feed=json to anywhere you get a JSON form.
-Author: wokamoto
-Version: 1.0.10
+Author: wokamoto & jas8522
+Version: 1.0.11
 Author URI: http://dogmap.jp/
 
 License:
