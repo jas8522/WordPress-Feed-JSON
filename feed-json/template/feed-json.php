@@ -79,6 +79,5 @@ if ( have_posts() ) {
 	}
 
 } else {
-	http_response_code(404);
-	wp_die("404 Not Found");
+	wp_die("404 No results found for that search query", 404);
 }
